@@ -1,21 +1,21 @@
 {
-  "name": "fjordimm-color-theme",
-  "displayName": "Fjordimm Color Theme",
-  "description": "A custom color theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.97.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Fjordimm Color Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/fjordimm-color-theme.json"
-      }
-    ]
-  }
+	"name": "fjordimm-color-theme",
+	"displayName": "Fjordimm Color Theme",
+	"description": "A custom color theme",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.97.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Fjordimm Color Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/fjordimm-color-theme.json"
+			}
+		]
+	}
 }
