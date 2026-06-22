@@ -141,12 +141,6 @@
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
-                "constant.language",
-                "constant.language.boolean",
-                "constant.language.null",
-                "constant.language.undefined",
-                "constant.language.nan",
-                "constant.language.infinity",
                 "entity.name.tag",
                 "entity.name.operator",
                 "punctuation.definition.template-expression.begin",
@@ -166,6 +160,20 @@
             ],
             "settings": {
                 "foreground": "#569CD6"
+            }
+        },
+        {
+            "name": "Language constants",
+            "scope": [
+                "constant.language",
+                "constant.language.boolean",
+                "constant.language.null",
+                "constant.language.undefined",
+                "constant.language.nan",
+                "constant.language.infinity",
+            ],
+            "settings": {
+                "foreground": "#4FD0D9"
             }
         },
         {
@@ -222,7 +230,6 @@
             "scope": [
                 "string",
                 "string.quoted",
-                "string.quoted.single",
                 "string.quoted.double",
                 "string.quoted.triple",
                 "string.quoted.other",
@@ -258,7 +265,7 @@
                 "string.escape"
             ],
             "settings": {
-                "foreground": "#D7BA7D"
+                "foreground": "#569CD6"
             }
         },
         {
@@ -1028,11 +1035,12 @@
             "scope": [
                 "constant.character",
                 "constant.other.option",
+                "string.quoted.single",
                 "string.quoted.single.char",
                 "constant.character.rust"
             ],
             "settings": {
-                "foreground": "#56C8A2"
+                "foreground": "#4FD0D9"
             }
         },
         {
@@ -1495,6 +1503,7 @@
         }
     ],
     "semanticTokenColors": {
-        "*.attribute": "#A9A9A9"
+        "*.attribute": "#A9A9A9",
+        "character": "#4FD0D9"
     }
 }
